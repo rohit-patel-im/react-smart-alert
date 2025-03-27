@@ -1,6 +1,6 @@
 {
   "name": "react-smart-alert",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Universal smart alert system for React & React Native with support for Redux Toolkit, traditional Redux, Context API, and auto fallback.",
   "main": "dist/index.js",
   "react-native": "dist/index.native.js",
