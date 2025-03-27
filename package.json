@@ -47,6 +47,6 @@
     "@babel/preset-react": "^7.26.3"
   },
   "scripts": {
-    "build": "babel src --out-dir dist --extensions \".js,.jsx\""
+    "build": "babel src --out-dir dist --copy-files --extensions \".js,.jsx\""
   }
 }
