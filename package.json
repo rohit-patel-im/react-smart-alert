@@ -2,8 +2,8 @@
   "name": "react-smart-alert",
   "version": "1.0.1",
   "description": "Universal smart alert system for React & React Native with support for Redux Toolkit, traditional Redux, Context API, and auto fallback.",
-  "main": "src/index.js",
-  "react-native": "src/index.native.js",
+  "main": "dist/index.js",
+  "react-native": "dist/index.native.js",
   "files": [
     "src",
     "README.md",
@@ -36,8 +36,17 @@
   },
   "homepage": "https://github.com/rohit.patel.im/react-smart-alert#readme",
   "peerDependencies": {
+    "@reduxjs/toolkit": ">=1.9.0",
     "react": ">=18.0.0",
-    "react-redux": ">=8.0.0",
-    "@reduxjs/toolkit": ">=1.9.0"
+    "react-redux": ">=8.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.0",
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist --extensions \".js,.jsx\""
   }
 }
