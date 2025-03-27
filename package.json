@@ -1,0 +1,14 @@
+{
+  "name": "react-smart-alert",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "react-native": "src/index.native.js",
+  "keywords": ["react", "react-native", "alert", "toast", "redux", "context", "notification"],
+  "author": "Rohit",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-redux": "^8.0.0",
+    "@reduxjs/toolkit": "^1.9.0"
+  }
+}
